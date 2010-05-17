@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.61.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2abde552c95f0b017ce03e2bb08598e6a8d4ec87 Changes
+SHA1 88cc1fbb3105e598a74e5897e44e3e57544c70b3 LICENSE
+SHA1 7df72ae46ce7907b8827001ea7f4bacdf4c386bf MANIFEST
+SHA1 eb67c23d8cdfba334be8843227f1f411a9c8fd3b META.yml
+SHA1 497bf388de3f2a4c67b3b63b75a33933111cc75a Makefile.PL
+SHA1 b8266c7c472f5ab2c54aa67e0fa10b44e8c52351 README
+SHA1 4b34a296bc794c9b43696952807a9da36ab9d167 dist.ini
+SHA1 c9fce013ee543389dcbc314a434f7414beaa6ac5 lib/Dist/Zilla/Plugin/Mercurial.pm
+SHA1 8cc71caa170ad9d4338cf5fd453fd8d1f47caabe lib/Dist/Zilla/Plugin/Mercurial/Check.pm
+SHA1 1f0dc134aab6a90d07b5835488c8f164f84148db lib/Dist/Zilla/Plugin/Mercurial/Push.pm
+SHA1 d7bb2e6658d7a8ea4fdb1944a4d5d889f53821c9 lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
+SHA1 9c18b6efdd87dd41cabddd423dcd02a4e2aebe18 lib/Dist/Zilla/PluginBundle/Mercurial.pm
+SHA1 3b7cbee6a2c6223f4ead849d2a9e3493fd41e241 t/00-compile.t
+SHA1 2b02593666f46ae961d235a4e8143394e023896e t/release-consistent-version.t
+SHA1 93797583dc7bfd6e98033c0d55f5692e5798dbf3 t/release-kwalitee.t
+SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
+SHA1 946206d2ce9fba0e8fda1d429e01245fb8934622 t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvxtqIACgkQIgMCsV8qvRITwQCfeO+p5mTH+4TuMkMtsMCfmUDS
+akAAn2swmi/IU08jQ7Pudcp/3vgVnj6w
+=7f7A
+-----END PGP SIGNATURE-----
