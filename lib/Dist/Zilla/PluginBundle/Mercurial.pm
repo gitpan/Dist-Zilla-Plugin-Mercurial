@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::Mercurial;
 BEGIN {
-  $Dist::Zilla::PluginBundle::Mercurial::VERSION = '0.01';
+  $Dist::Zilla::PluginBundle::Mercurial::VERSION = '0.02';
 }
 
 use strict;
@@ -45,7 +45,7 @@ Dist::Zilla::PluginBundle::Mercurial - Bundles the Mercurial Check, Tag, and Pus
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

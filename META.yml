@@ -6,18 +6,19 @@ build_requires:
   Test::More: 0.88
 configure_requires:
   ExtUtils::MakeMaker: 6.31
-generated_by: 'Dist::Zilla version 2.101310'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 2.101380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Dist-Zilla-Plugin-Mercurial
-recommends: {}
 requires:
+  Dist::Zilla: 2
   File::Slurp: 0
   IPC::System::Simple: 0
   autodie: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-Mercurial
   repository: http://hg.urth.org/hg/Dist-Zilla-Plugin-Mercurial
-version: 0.01
+version: 0.02

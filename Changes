@@ -1,1 +1,8 @@
-0.01
+0.02    2010-05-18
+
+- Add missing prereq on Dist::Zilla
+
+0.01    2010-05-17
+
+- Initial release
+
