@@ -14,18 +14,18 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 67607b435ce8ff8a91c52c71d61fe17c1f110186 Changes
+SHA1 3e692cd22e7446b3cf0d003883f6196566fe6db2 Changes
 SHA1 88cc1fbb3105e598a74e5897e44e3e57544c70b3 LICENSE
 SHA1 82f83087a02c825b153e1b615ffdf76a44069110 MANIFEST
-SHA1 685be9bed989e02bfbafbc8bccc65ebbb1eb7c5d META.yml
-SHA1 2dfd01d76770700042c7bd6e96a39b75d3dd8a01 Makefile.PL
-SHA1 dfcb5322f6728da9ca4b2e7fde9982f513888b50 README
-SHA1 65599038d2c6b99ef511bb327a837ae08c315a68 dist.ini
-SHA1 49cf5fc7c0b66cfa35783a4f607aaf358000b1d7 lib/Dist/Zilla/Plugin/Mercurial.pm
-SHA1 2bc334a9e7f338a000bac0e9daca82a1a44aaf7b lib/Dist/Zilla/Plugin/Mercurial/Check.pm
-SHA1 1fcab7d79c4246cf1147fc593f31b6a55bde6977 lib/Dist/Zilla/Plugin/Mercurial/Push.pm
-SHA1 b6039de329d2fa1282e947dad4772fdb08095c00 lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
-SHA1 4b51dfb0e12524c369a5b1b72690e845e1154d9c lib/Dist/Zilla/PluginBundle/Mercurial.pm
+SHA1 1889f04c66c172758bd8afef4d684cec3e5384b4 META.yml
+SHA1 9a7ad9627a72b460b06283921ca45a6c483ce2af Makefile.PL
+SHA1 fa2a8f7b78a955dc28d8f3c99ab9628b09d44df0 README
+SHA1 0462f8e7adca860ebb17d2f62789b4e545e14792 dist.ini
+SHA1 53df16437fdd833b85a4b997ceb7f1fee8608cc9 lib/Dist/Zilla/Plugin/Mercurial.pm
+SHA1 e4b0c95c28d95e71c67b4723b2f5c3008a61a043 lib/Dist/Zilla/Plugin/Mercurial/Check.pm
+SHA1 5f2733bbfef4738306696bbd45e64361e52d83ec lib/Dist/Zilla/Plugin/Mercurial/Push.pm
+SHA1 35ddbe2bf4e5b3db4232478c71b9413e33ac4719 lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
+SHA1 58e9bfbc8f63b1ab129a657a13f98dc6d372de84 lib/Dist/Zilla/PluginBundle/Mercurial.pm
 SHA1 3b7cbee6a2c6223f4ead849d2a9e3493fd41e241 t/00-compile.t
 SHA1 2b02593666f46ae961d235a4e8143394e023896e t/release-consistent-version.t
 SHA1 93797583dc7bfd6e98033c0d55f5692e5798dbf3 t/release-kwalitee.t
@@ -34,7 +34,7 @@ SHA1 946206d2ce9fba0e8fda1d429e01245fb8934622 t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkvy5EQACgkQIgMCsV8qvRKTXACePUhj7apa2p9h3ug4ku0M1Ttf
-gZIAn31HrbkeKARAGQQb6fCwIuiqIsLK
-=x+EY
+iEYEARECAAYFAkv5L5sACgkQIgMCsV8qvRJ81wCdG4P2qrbVMvK3l0XFowcGemwl
+phUAoIvza/sBWgvbehvh4nUBlXUUmRZo
+=nOIV
 -----END PGP SIGNATURE-----

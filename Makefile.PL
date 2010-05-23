@@ -22,12 +22,12 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Dist::Zilla::Plugin::Mercurial',
   'PREREQ_PM' => {
-    'Dist::Zilla' => '2',
+    'Dist::Zilla' => '3',
     'File::Slurp' => '0',
     'IPC::System::Simple' => '0',
     'autodie' => '0'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }

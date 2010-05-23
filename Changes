@@ -1,6 +1,12 @@
+0.03    2010-05-23
+
+- Fixed to work with the latest Dist::Zilla
+
+
 0.02    2010-05-18
 
 - Add missing prereq on Dist::Zilla
+
 
 0.01    2010-05-17
 
