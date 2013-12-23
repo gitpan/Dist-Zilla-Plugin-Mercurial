@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Mercurial::Check;
-BEGIN {
-  $Dist::Zilla::Plugin::Mercurial::Check::VERSION = '0.03';
+{
+  $Dist::Zilla::Plugin::Mercurial::Check::VERSION = '0.02';
 }
 
 use strict;
@@ -34,7 +34,7 @@ __PACKAGE__->meta()->make_immutable();
 
 # ABSTRACT: Check for modified/removed/unknown files
 
-
+__END__
 
 =pod
 
@@ -44,7 +44,7 @@ Dist::Zilla::Plugin::Mercurial::Check - Check for modified/removed/unknown files
 
 =head1 VERSION
 
-version 0.03
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -61,7 +61,7 @@ releasing. This means that C<hg status> returns no output.
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Shlomi Fish <shlomif@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
@@ -71,7 +71,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

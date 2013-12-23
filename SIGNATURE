@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,27 +14,28 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3e692cd22e7446b3cf0d003883f6196566fe6db2 Changes
-SHA1 88cc1fbb3105e598a74e5897e44e3e57544c70b3 LICENSE
-SHA1 82f83087a02c825b153e1b615ffdf76a44069110 MANIFEST
-SHA1 1889f04c66c172758bd8afef4d684cec3e5384b4 META.yml
-SHA1 9a7ad9627a72b460b06283921ca45a6c483ce2af Makefile.PL
-SHA1 fa2a8f7b78a955dc28d8f3c99ab9628b09d44df0 README
-SHA1 0462f8e7adca860ebb17d2f62789b4e545e14792 dist.ini
-SHA1 53df16437fdd833b85a4b997ceb7f1fee8608cc9 lib/Dist/Zilla/Plugin/Mercurial.pm
-SHA1 e4b0c95c28d95e71c67b4723b2f5c3008a61a043 lib/Dist/Zilla/Plugin/Mercurial/Check.pm
-SHA1 5f2733bbfef4738306696bbd45e64361e52d83ec lib/Dist/Zilla/Plugin/Mercurial/Push.pm
-SHA1 35ddbe2bf4e5b3db4232478c71b9413e33ac4719 lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
-SHA1 58e9bfbc8f63b1ab129a657a13f98dc6d372de84 lib/Dist/Zilla/PluginBundle/Mercurial.pm
-SHA1 3b7cbee6a2c6223f4ead849d2a9e3493fd41e241 t/00-compile.t
-SHA1 2b02593666f46ae961d235a4e8143394e023896e t/release-consistent-version.t
-SHA1 93797583dc7bfd6e98033c0d55f5692e5798dbf3 t/release-kwalitee.t
-SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
-SHA1 946206d2ce9fba0e8fda1d429e01245fb8934622 t/release-pod-syntax.t
+SHA1 018f25b93a2c35477d0d999963b4d087d99f917c Changes
+SHA1 035a4833c7e144d1cf66f73443b2a13c976b477d Changes~
+SHA1 9e9a5d2fbcac5238eec73f2599e971a0a3a89688 LICENSE
+SHA1 56978740bae97134e4294a38b58a04cb691123a2 MANIFEST
+SHA1 8341c2f95af8fb1872acf3aa9f464a973997fe4a META.yml
+SHA1 e72805f9c2633f1077385e782da5c045e6847986 Makefile.PL
+SHA1 2d72c6534f646e884be73144c4a72c0c4013de8a README
+SHA1 35d337a8eb40598cb1607b920d5b475aba3924d5 dist.ini
+SHA1 9e93d272c9d1b95c22fb64d5f363f1f21f620eb7 dist.ini~
+SHA1 a9d19d4f8f1073b2eeb2da4b567a87ca6bed8083 lib/Dist/Zilla/Plugin/Mercurial.pm
+SHA1 4c80661e7146e5aab4e3711c6cd62d73219c81ea lib/Dist/Zilla/Plugin/Mercurial/Check.pm
+SHA1 7f18716b07f42bc2a341b7c214109dd780f6e627 lib/Dist/Zilla/Plugin/Mercurial/Push.pm
+SHA1 1b48bd5eba5ffd332b0d3a8a157be40d4a36f401 lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
+SHA1 200079a96087b3922b8ca2ab8d5f3079482a7174 lib/Dist/Zilla/PluginBundle/Mercurial.pm
+SHA1 646246f1b8aaeb37e674c5bb26d60b5cd6456ee1 lib/Dist/Zilla/Role/Mercurial/DirtyFiles.pm
+SHA1 14863e63ebceb712fe78ec64e52543a2e7909716 t/00-compile.t
+SHA1 9c3627ff37f4fd5bddc34bf46cf3359eaf76a060 t/release-consistent-version.t
+SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 t/release-kwalitee.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1
 
-iEYEARECAAYFAkv5L5sACgkQIgMCsV8qvRJ81wCdG4P2qrbVMvK3l0XFowcGemwl
-phUAoIvza/sBWgvbehvh4nUBlXUUmRZo
-=nOIV
+iEYEARECAAYFAlK38oMACgkQz3l/NN3wsUlEGgCfbYYZ4xXbNdp0kKIhpu98uPk4
+ca8An3gtC9N7c2QIrzPQer1C5r6hhYah
+=cltU
 -----END PGP SIGNATURE-----

@@ -1,5 +1,5 @@
 name    = Dist-Zilla-Plugin-Mercurial
-version = 0.02
+version = 0.01
 author  = Shlomi Fish <shlomif@cpan.org>
 license = Perl_5
 copyright_holder = Dave Rolsky

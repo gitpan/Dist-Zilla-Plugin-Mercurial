@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Mercurial::Tag;
-BEGIN {
-  $Dist::Zilla::Plugin::Mercurial::Tag::VERSION = '0.03';
+{
+  $Dist::Zilla::Plugin::Mercurial::Tag::VERSION = '0.02';
 }
 
 use strict;
@@ -42,7 +42,7 @@ sub after_release {
 
 # ABSTRACT: Tag the new version
 
-
+__END__
 
 =pod
 
@@ -52,7 +52,7 @@ Dist::Zilla::Plugin::Mercurial::Tag - Tag the new version
 
 =head1 VERSION
 
-version 0.03
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -65,7 +65,7 @@ In your F<dist.ini>:
 This plugin acts both before and after a release.
 
 Before the release, it checks to see that a tag matching the release version
-does not already exist. If such a tag already exists, that is a fatal error.
+does not already exist. If such a tag already exists, this is a fatal error.
 
 After the release, it adds a tag with the released version.
 
@@ -74,7 +74,7 @@ After the release, it adds a tag with the released version.
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Shlomi Fish <shlomif@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
@@ -84,7 +84,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

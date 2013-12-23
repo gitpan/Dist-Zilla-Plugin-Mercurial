@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::Mercurial;
-BEGIN {
-  $Dist::Zilla::PluginBundle::Mercurial::VERSION = '0.03';
+{
+  $Dist::Zilla::PluginBundle::Mercurial::VERSION = '0.02';
 }
 
 use strict;
@@ -21,7 +21,7 @@ sub bundle_config {
     for my $name (@names) {
         my $class = "Dist::Zilla::Plugin::Mercurial::$name";
 
-        push @config, [ "$section->{name}/$name" => $class => {} ];
+        push @config, [ "$section->{name}/$name" => $class ];
     }
 
     return @config;
@@ -35,7 +35,7 @@ __PACKAGE__->meta->make_immutable;
 
 # ABSTRACT: Bundles the Mercurial Check, Tag, and Push plugins
 
-
+__END__
 
 =pod
 
@@ -45,7 +45,7 @@ Dist::Zilla::PluginBundle::Mercurial - Bundles the Mercurial Check, Tag, and Pus
 
 =head1 VERSION
 
-version 0.03
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -62,10 +62,11 @@ This is a plugin bundle to load all git plugins. It is equivalent to:
   [Mercurial::Push]
 
 =for Pod::Coverage bundle_config
+    mvp_multivalue_args
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Shlomi Fish <shlomif@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
@@ -75,7 +76,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-

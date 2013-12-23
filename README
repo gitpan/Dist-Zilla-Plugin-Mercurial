@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Dist-Zilla-Plugin-Mercurial,
-version 0.03:
+version 0.02:
 
-  A Mercurial plugin for Dist::Zilla
+  foo
 
 This software is copyright (c) 2010 by Dave Rolsky.
 

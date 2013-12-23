@@ -1,4 +1,5 @@
 Changes
+Changes~
 LICENSE
 MANIFEST
 META.yml
@@ -6,13 +7,13 @@ Makefile.PL
 README
 SIGNATURE
 dist.ini
+dist.ini~
 lib/Dist/Zilla/Plugin/Mercurial.pm
 lib/Dist/Zilla/Plugin/Mercurial/Check.pm
 lib/Dist/Zilla/Plugin/Mercurial/Push.pm
 lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
 lib/Dist/Zilla/PluginBundle/Mercurial.pm
+lib/Dist/Zilla/Role/Mercurial/DirtyFiles.pm
 t/00-compile.t
 t/release-consistent-version.t
 t/release-kwalitee.t
-t/release-pod-coverage.t
-t/release-pod-syntax.t
