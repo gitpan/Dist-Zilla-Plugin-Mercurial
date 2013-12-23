@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Mercurial::Tag;
 {
-  $Dist::Zilla::Plugin::Mercurial::Tag::VERSION = '0.02';
+  $Dist::Zilla::Plugin::Mercurial::Tag::VERSION = '0.04';
 }
 
 use strict;
@@ -52,7 +52,7 @@ Dist::Zilla::Plugin::Mercurial::Tag - Tag the new version
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -65,7 +65,7 @@ In your F<dist.ini>:
 This plugin acts both before and after a release.
 
 Before the release, it checks to see that a tag matching the release version
-does not already exist. If such a tag already exists, this is a fatal error.
+does not already exist. If such a tag already exists, that is a fatal error.
 
 After the release, it adds a tag with the released version.
 

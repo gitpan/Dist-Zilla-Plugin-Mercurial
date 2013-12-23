@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Mercurial::Check;
 {
-  $Dist::Zilla::Plugin::Mercurial::Check::VERSION = '0.02';
+  $Dist::Zilla::Plugin::Mercurial::Check::VERSION = '0.04';
 }
 
 use strict;
@@ -44,7 +44,7 @@ Dist::Zilla::Plugin::Mercurial::Check - Check for modified/removed/unknown files
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 

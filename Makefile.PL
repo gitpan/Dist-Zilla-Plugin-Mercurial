@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "foo",
+  "ABSTRACT" => "A Mercurial plugin for Dist::Zilla",
   "AUTHOR" => "Shlomi Fish <shlomif\@cpan.org>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -20,6 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Dist::Zilla::Plugin::Mercurial",
   "PREREQ_PM" => {
+    "Dist::Zilla" => 3,
     "File::Slurp" => 0,
     "IPC::System::Simple" => 0,
     "autodie" => 0
@@ -27,7 +28,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Test::More" => "0.88"
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.04",
   "test" => {
     "TESTS" => "t/*.t"
   }

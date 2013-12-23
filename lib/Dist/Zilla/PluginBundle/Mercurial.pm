@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::Mercurial;
 {
-  $Dist::Zilla::PluginBundle::Mercurial::VERSION = '0.02';
+  $Dist::Zilla::PluginBundle::Mercurial::VERSION = '0.04';
 }
 
 use strict;
@@ -21,7 +21,7 @@ sub bundle_config {
     for my $name (@names) {
         my $class = "Dist::Zilla::Plugin::Mercurial::$name";
 
-        push @config, [ "$section->{name}/$name" => $class ];
+        push @config, [ "$section->{name}/$name" => $class => {} ];
     }
 
     return @config;
@@ -45,7 +45,7 @@ Dist::Zilla::PluginBundle::Mercurial - Bundles the Mercurial Check, Tag, and Pus
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -62,7 +62,6 @@ This is a plugin bundle to load all git plugins. It is equivalent to:
   [Mercurial::Push]
 
 =for Pod::Coverage bundle_config
-    mvp_multivalue_args
 
 =head1 AUTHOR
 
