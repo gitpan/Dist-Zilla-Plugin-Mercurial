@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Mercurial;
 {
-  $Dist::Zilla::Plugin::Mercurial::VERSION = '0.05';
+  $Dist::Zilla::Plugin::Mercurial::VERSION = '0.04';
 }
 
 use strict;
@@ -20,7 +20,7 @@ Dist::Zilla::Plugin::Mercurial - A Mercurial plugin for Dist::Zilla
 
 =head1 VERSION
 
-version 0.05
+version 0.04
 
 =head1 SYNOPSIS
 

@@ -4,7 +4,7 @@ license = Perl_5
 copyright_holder = Dave Rolsky
 copyright_year   = 2010
 
-version = 0.04
+version = 0.05
 
 [@Basic]
 
@@ -17,7 +17,7 @@ bugtracker = http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-Mercuria
 repository = https://bitbucket.org/shlomif/perl-dist-zilla-plugin-mercurial
 
 [CompileTests]
-[KwaliteeTests]
+[Test::Kwalitee]
 [PodSyntaxTests]
 [PodCoverageTests]
 [Signature]

@@ -21,4 +21,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-Mercurial
   repository: https://bitbucket.org/shlomif/perl-dist-zilla-plugin-mercurial
-version: 0.05
+version: 0.04

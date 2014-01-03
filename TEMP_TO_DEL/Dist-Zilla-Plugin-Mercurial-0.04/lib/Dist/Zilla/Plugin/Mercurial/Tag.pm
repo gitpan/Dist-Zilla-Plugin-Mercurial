@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Mercurial::Tag;
 {
-  $Dist::Zilla::Plugin::Mercurial::Tag::VERSION = '0.05';
+  $Dist::Zilla::Plugin::Mercurial::Tag::VERSION = '0.04';
 }
 
 use strict;
@@ -52,7 +52,7 @@ Dist::Zilla::Plugin::Mercurial::Tag - Tag the new version
 
 =head1 VERSION
 
-version 0.05
+version 0.04
 
 =head1 SYNOPSIS
 

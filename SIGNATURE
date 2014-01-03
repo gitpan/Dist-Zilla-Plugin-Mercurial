@@ -14,28 +14,47 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 06a70ff503fd87ceab419239d7a984307cda4886 Changes
-SHA1 3a64b70c892ad10a96c512c791e36bdad2804616 Changes~
+SHA1 f16b7b99e8b0ffc612966c4ba22690bac888082f Changes
+SHA1 9b334e9b605e2fb81f57ee61a9bbf8feab9c175b Changes~
 SHA1 9e9a5d2fbcac5238eec73f2599e971a0a3a89688 LICENSE
-SHA1 e417ff46d7c229db715bd23fa62d3605ae6ae74f MANIFEST
-SHA1 c253a50aa71498092de8769eee9cad04d0ee8433 META.yml
-SHA1 ce2a43c1907619be0dff76109d8eeabdbd82136e Makefile.PL
-SHA1 616b204ddfc8820504bde68abf29d6ddc1a81d94 README
-SHA1 42cffb9d52b71f8329a3b47488c331f970252011 dist.ini
-SHA1 42cffb9d52b71f8329a3b47488c331f970252011 dist.ini~
-SHA1 5795c1eedfdf914380a524b22458d9a1ebd9e299 lib/Dist/Zilla/Plugin/Mercurial.pm
-SHA1 e1b7b5efe02371548952b11c9b70807c8a1d07f4 lib/Dist/Zilla/Plugin/Mercurial/Check.pm
-SHA1 4ea1a90f80fb9eb739400673221dd6df3f3940a6 lib/Dist/Zilla/Plugin/Mercurial/Push.pm
-SHA1 934a28579a4f0402f01acf50e29a27ca341ddd3e lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
-SHA1 4b3c06c13d1ae911f0ad83c4e7824656016819f7 lib/Dist/Zilla/PluginBundle/Mercurial.pm
+SHA1 b7cb3251a9715e113a387ac26acc03e84cfb005c MANIFEST
+SHA1 8e17c0baccf1c4a400aa52334389fdfe38acaf69 META.yml
+SHA1 d4b01470efe369c2e3d0dc49f82f15f358ce920b Makefile.PL
+SHA1 ab9c1fc29817d95d6c2b788f97a625a3b83194f0 README
+SHA1 06a70ff503fd87ceab419239d7a984307cda4886 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/Changes
+SHA1 3a64b70c892ad10a96c512c791e36bdad2804616 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/Changes~
+SHA1 9e9a5d2fbcac5238eec73f2599e971a0a3a89688 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/LICENSE
+SHA1 e417ff46d7c229db715bd23fa62d3605ae6ae74f TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/MANIFEST
+SHA1 c253a50aa71498092de8769eee9cad04d0ee8433 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/META.yml
+SHA1 ce2a43c1907619be0dff76109d8eeabdbd82136e TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/Makefile.PL
+SHA1 616b204ddfc8820504bde68abf29d6ddc1a81d94 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/README
+SHA1 0ce97154b80334af67171236f933359eb35cdebb TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/SIGNATURE
+SHA1 42cffb9d52b71f8329a3b47488c331f970252011 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/dist.ini
+SHA1 42cffb9d52b71f8329a3b47488c331f970252011 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/dist.ini~
+SHA1 5795c1eedfdf914380a524b22458d9a1ebd9e299 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/lib/Dist/Zilla/Plugin/Mercurial.pm
+SHA1 e1b7b5efe02371548952b11c9b70807c8a1d07f4 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/lib/Dist/Zilla/Plugin/Mercurial/Check.pm
+SHA1 4ea1a90f80fb9eb739400673221dd6df3f3940a6 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/lib/Dist/Zilla/Plugin/Mercurial/Push.pm
+SHA1 934a28579a4f0402f01acf50e29a27ca341ddd3e TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
+SHA1 4b3c06c13d1ae911f0ad83c4e7824656016819f7 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/lib/Dist/Zilla/PluginBundle/Mercurial.pm
+SHA1 14863e63ebceb712fe78ec64e52543a2e7909716 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/t/00-compile.t
+SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/t/release-kwalitee.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e TEMP_TO_DEL/Dist-Zilla-Plugin-Mercurial-0.04/t/release-pod-syntax.t
+SHA1 a7ff263513a5e681f2968a1f48013ff7f160a5bb dist.ini
+SHA1 a7ff263513a5e681f2968a1f48013ff7f160a5bb dist.ini~
+SHA1 8676aea11aa1c801f9b207b27e3721747f00148a lib/Dist/Zilla/Plugin/Mercurial.pm
+SHA1 7125bb98000c58b4c3bbe0954b2d5aff74524321 lib/Dist/Zilla/Plugin/Mercurial/Check.pm
+SHA1 06396e4a6530c3505fbcfb8c482161dff544ccd8 lib/Dist/Zilla/Plugin/Mercurial/Push.pm
+SHA1 0f3c885a64cc9bc80cd7ad313c314e9d41e30dfd lib/Dist/Zilla/Plugin/Mercurial/Tag.pm
+SHA1 12ecdbe804c1ba4caf5ed51cd93eb5d3d8ddbdd6 lib/Dist/Zilla/PluginBundle/Mercurial.pm
 SHA1 14863e63ebceb712fe78ec64e52543a2e7909716 t/00-compile.t
-SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 t/release-kwalitee.t
+SHA1 be1ff04ade66c334e56a388626b85cd5d27ed9c9 t/release-kwalitee.t
 SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
 SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEARECAAYFAlK3+i8ACgkQz3l/NN3wsUlmngCdHHucztaGvCXcvUpY/4WSr3O5
-lBgAn1cpAxLShFNBx2bXmZopP1vINsLe
-=6PlD
+iEYEARECAAYFAlLGjPAACgkQz3l/NN3wsUlMygCeI5QHlt0fra/w7erVzEt7jmTL
+SlsAnizTNstMKZpPmQ66d8ACsJZZ3bNb
+=61DX
 -----END PGP SIGNATURE-----
