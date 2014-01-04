@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Mercurial::Push;
 {
-  $Dist::Zilla::Plugin::Mercurial::Push::VERSION = '0.05';
+  $Dist::Zilla::Plugin::Mercurial::Push::VERSION = '0.06';
 }
 
 use strict;
@@ -35,7 +35,7 @@ Dist::Zilla::Plugin::Mercurial::Push - Push the current Mercurial branch
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 SYNOPSIS
 
