@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Mercurial;
 {
-  $Dist::Zilla::Plugin::Mercurial::VERSION = '0.06';
+  $Dist::Zilla::Plugin::Mercurial::VERSION = '0.07';
 }
 
 use strict;
@@ -14,13 +14,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Dist::Zilla::Plugin::Mercurial - A Mercurial plugin for Dist::Zilla
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 
